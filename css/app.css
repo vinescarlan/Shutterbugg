@@ -14,6 +14,9 @@ p {
   font-size: 1.6em;
   margin-top: -5px;
 }
+a {
+  text-decoration: none;
+}
 a.button {
   font-size: 1em !important;
   letter-spacing: 1.3px;
@@ -85,4 +88,17 @@ footer li {
   body {
     font-size: 110%;
   }
+}
+#old-ie {
+  padding: 20px 5px 5px;
+  background: #eee;
+  border-bottom: 1px solid #ccc;
+}
+#old-ie * {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 300;
+}
+#old-ie strong {
+  font-weight: bold;
 }
